@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Money-Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head-design">Money Master</h1>
+
+    <div class="section">
+    <h2>Income</h2>
+
+    <div>
+        <label for="income">Income:</label>
+        <input id="monthly-salary" type="text" class="gray-input" placeholder="enter your monthly sallery">
+    </div>
+
+    <h1>Expenses</h1>
+
+  
+    <div>
+        <label for="food">Food:</label>
+        <input id="food" type="text" class="gray-input" placeholder="enter your monthly food budget">
+      </div><br>
+  
+      <div>
+        <label for="rent">Rent:</label>
+        <input id="rent" type="text" class="gray-input" placeholder="enter your monthly rent budget">
+      </div><br>
+      
+      <div>
+        <label for="clothes">Clothes:</label>
+        <input id="clothes" type="text" class="gray-input" placeholder="enter your monthly clothes budget">
+      </div><br>
+
+        <div>
+            <button id="calculate-btn" class="button">Calculate</button>
+        </div>
+    
+
+        <div>
+            <h1>Total Expenses: <span id="total-expence">00</span></h1>
+            <h2>Balance: <span id="total-rest-money">00</span></h2>
+        </div>
+         <div>
+            <label for="">Save:</label>
+            <input id="save-money" type="text" class="input" placeholder="">
+
+            <label for="">%</label>
+            <button id="save-btn" class="button">Save</button>
+         </div>
+
+         <div>
+            <h2>Saving Amount: <span id="after-save">00</span></h2>
+            <h2>Remaining Balance: <span id="ramaining-balance">00</span></h2>
+         </div>
+        </div>
+    <script src="calculate.js"></script>
+</body>
+</html>
